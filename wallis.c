@@ -8,7 +8,7 @@ float wallis_pi(int n){
  float pi=1.0;
  int i;
   for(i=0; i<=n; i++){
-    pi = pi*((4*i*i)/(4*i*i-1));
+    pi =  pi*((4*i*i)/(4*i*i-1));
      }
 }
 int main(void) {
@@ -29,4 +29,11 @@ int main(void) {
     }
   }
 }
+
+ 
+
+
+
+
+
 
